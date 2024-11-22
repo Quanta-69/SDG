@@ -1,0 +1,98 @@
+/*ANIMATIONS!*/
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+}
+.hidden .down-child{
+    opacity:;
+}
+.show .down-child{}
+
+.hidden .up-child{
+    opacity: 0;
+    transform: translateY(300px);
+    transition: all 1s;
+}
+.show .up-child{
+    opacity: 1;
+    transform: translateY(0);
+}
+.hidden .head-slide-2{
+    opacity: 0;
+    transform: translateX(-100px);
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+.show .head-slide-2{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.hidden .head-slide{
+    opacity: 0;
+    transform: translateY(-100px);
+    filter: blur(5px);
+    transition: all 1.5s;
+}
+.show .head-slide{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}.show .up-child:nth-child(2){
+    transition-delay: .2s;
+}.show .up-child:nth-child(3){
+    transition-delay: .4s;
+}.show .up-child:nth-child(4){
+    transition-delay: .6s;
+}.show .up-child:nth-child(5){
+    transition-delay: .8s;
+}.show .up-child:nth-child(6){
+    transition-delay: 1s;
+}.show .up-child:nth-child(7){
+    transition-delay: 1.2s;
+}.show .up-child:nth-child(8){
+    transition-delay: 1.4s;
+}.show .up-child:nth-child(9){
+    transition-delay: 1.6s;
+}.show .up-child:nth-child(10){
+    transition-delay: 1.8s;
+}.show .up-child:nth-child(11){
+    transition-delay: 2s;
+}
+.show .up-child:nth-child(12){
+    transition-delay: 2.2s;
+}
+.hidden .focus{
+    animation: none;
+}
+.show .focus{
+    color: white;
+    animation: focus 1s linear;
+    transition: 2s;
+}
+@keyframes focus{
+    0%{
+        color: white;
+    }
+    25%{
+        color: red;
+    }
+    50%{
+        color: white;
+    }
+    75%{
+        color: red;
+    }
+    100%{
+        color: white;
+    }
+
+}
+/* ANIMATIONS END */

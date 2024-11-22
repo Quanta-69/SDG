@@ -1,0 +1,26 @@
+.home{
+    min-height: 100vh;
+    background: url(../assets/content/group.JPG) center/cover fixed;
+
+    .wrapper{
+        justify-content: center;
+        align-items: center;
+
+        h1,h2{
+            text-align: center;
+        }
+        h1{
+            font-size: var(--lg-font);
+            span{
+                color: var(--secondary-color);
+            }
+        }
+        h2{
+            font-size: var(--md-font);
+
+            span{
+                color: var(--highlight-color);
+            }
+        }
+    }
+}

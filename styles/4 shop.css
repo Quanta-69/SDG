@@ -1,0 +1,91 @@
+.shop{
+
+    .wrapper{
+        .card-wrap{
+            gap: 1rem;
+            
+            .card{
+                padding: 0;
+                max-width: 400px;
+                border-radius: .5cm;
+                border: 3px solid transparent;
+                background: var(--transparent);
+
+                .pic{
+                    border-top-left-radius: .5cm;
+                    border-top-right-radius: .5cm;
+                    height: 300px;
+                    background: center/cover;
+                }
+                .text-content{
+                    display: flex;
+                    gap: .3rem;
+                    flex-direction: column;
+                    padding: 20px;
+
+                    h1{
+                        font-size: calc(var(--base-font)*1.7);
+                    }
+                    h2{
+                        font-size: var(--sm-font);
+                        font-weight: 300;
+                        color: var(--trans-text);
+                    }
+                    .links{
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        gap: .2rem;
+                    }
+                    .svg:hover{
+                        transform: translateY(-2px);
+                    }
+                }
+            }
+        }
+        .music-sect{
+            .card{
+                padding: 0;
+                max-width: 400px;
+                border-radius: .5cm;
+                background: var(--transparent);
+
+                .pic{
+                    border-top-left-radius: .5cm;
+                    border-top-right-radius: .5cm;
+                    height: 300px;
+                    background: center/cover;
+                }
+                .text-content{
+                    display: flex;
+                    gap: .3rem;
+                    flex-direction: column;
+                    padding: 20px;
+
+                    h1{
+                        font-size: calc(var(--base-font)*1.7);
+                    }
+                    h2{
+                        font-size: var(--sm-font);
+                        font-weight: 300;
+                        color: var(--trans-text);
+                    }
+                    .links{
+                        display: flex;
+                        justify-content: start;
+                        align-items: center;
+                        gap: .2rem;
+                    }
+                    .svg:hover{
+                        transform: translateY(-2px);
+                    }
+                }
+            }
+        }
+        .sports-sect{
+           
+        }
+        .clothes-sect{}
+        .coding-sect{}
+    }
+}

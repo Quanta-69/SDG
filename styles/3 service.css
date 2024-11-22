@@ -1,0 +1,48 @@
+.service{
+    background: var(--transparent);
+    .what-we-do{
+        .card-wrap{
+            gap: 1rem;
+        }
+        .card{
+            background: var(--dark-transparent);
+            border-radius: .5cm;
+            gap: .3rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            max-width: 1200px;
+        }
+        .card:nth-child(even){
+            flex-direction: row-reverse;
+        }
+        .pic{
+            border-radius: .1cm;
+            background: center/cover;
+            width: 100%;
+            max-width: 550px;
+            height: 400px;
+        }
+        .text-content{
+            border-radius: .5cm;
+            display: flex;
+            flex-direction: column;
+            gap: .3rem;
+            padding: 30px;
+            width: 100%;
+            max-width: 600px;
+
+            h1{
+                font-size: calc(var(--base-font)*2.6);
+                color:var(--secondary-color);
+            }
+            h2{
+                font-size: calc(var(--base-font)*1.5);
+            }
+            p{
+                color:var(--trans-text);
+            }
+        }
+    }
+}
